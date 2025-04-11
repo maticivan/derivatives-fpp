@@ -1,0 +1,258 @@
+//*************************************************************************************************
+//*************************************************************************************************
+//* The MIT License (MIT)                                                                         *
+//* Copyright (C) 2025 Ivan Matic, Rados Radoicic, and Dan Stefanica                              *
+//*                                                                                               *
+//* Permission is hereby granted, free of charge, to any person obtaining a copy of this          *
+//* software and associated documentation files (the "Software"), to deal in the Software         *
+//* without restriction, including without limitation the rights to use, copy, modify, merge,     *
+//* publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons    *
+//* to whom the Software is furnished to do so, subject to the following conditions:              *
+//*                                                                                               *
+//* The above copyright notice and this permission notice shall be included in all copies or      *
+//* substantial portions of the Software.                                                         *
+//*                                                                                               *
+//* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,           *
+//* INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR      *
+//* PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE     *
+//* FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR          *
+//* OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER        *
+//* DEALINGS IN THE SOFTWARE.                                                                     *
+//*************************************************************************************************
+
+
+_k_sectionName_/k_
+_v_
+
+\subsection{Analysis of the case _/v_
+
+
+_k_introduction01_/k_
+_v_The Proposition \ref{thm|forComputer} implies \begin{eqnarray}_/v_
+_k_introduction02_/k_
+_v_\end{eqnarray}_/v_
+
+
+_k_openingFirstRepair_/k_
+_v_We are allowed to conclude that _/v_
+_/v_
+_k_openingAdditionalRepair_/k_
+_v_An additional inclusion can be derived. Namely, we can deduce that _/v_
+_/v_
+
+_k_closeRepair_/k_
+_v_ Hence, we have _/v_
+_/v_
+
+_k_openingEnvSummary0_/k_
+_v_Initially, we can make the following straightforward conclusions about the environment. \begin{eqnarray}_/v_
+_/v_
+
+_k_closingEnvSummary0_/k_
+_v_\end{eqnarray}_/v_
+_/v_
+
+
+_k_openingEnvSummary1_/k_
+_v_The following relations are satisfied. \begin{eqnarray}_/v_
+_/v_
+
+_k_closingEnvSummary1_/k_
+_v_\end{eqnarray}_/v_
+_/v_
+
+_k_level0Open_/k_
+_v_Denote by $\gamma(a,a,a,a)$ the geodesic on the environment $\sigma^{(a,a,a,a)}(\omega)$. Let $\gamma^-(a,a,a,a)$ be the section of $\gamma(a,a,a,a)$ before $v_1$. Let $\gamma^+(a,a,a,a)$ be the section after $v_4$. Let $\gamma(i,i+1)$ be the section between $v_i$ and $v_{i+1}$ for $i\in\{1,2,3,4\}$. Let $e_{01}$ be the passage time over $\gamma^-(a,a,a,a)$. Let $e_{45}$ be the passage time over $\gamma^+(a,a,a,a)$. For $i\in\{1,2,3\}$ and $j=i+1$, denote by $e_{ij}$ the passage 
+time over $\gamma(i,j)$. The value $f(\sigma^{(a,a,a,a)}(\omega)$ satisfies \begin{eqnarray}f(\sigma^{(a,a,a,a)}(\omega)&=&\rho, \mbox{ where } \rho=4a+e_{01}+e_{12}+e_{23}+e_{34}+e_{45}. _/v_
+_k_level0Close_/k_
+_v_\end{eqnarray}_/v_
+
+
+
+ 
+_k_envAnalysis02_/k_
+_v_Let us denote by $_/v_
+
+_k_envAnalysis03_/k_
+_v_ a geodesic on the environment _/v_
+
+_k_envAnalysis04_/k_
+_v_Let _/v_
+
+
+_k_envAnalysis05_/k_
+_v_ be the section of this geodesic _/v_
+
+
+_k_envAnalysis06_/k_
+_v_ There exists a real number _/v_
+_k_envAnalysis07_/k_
+_v_\in (0,b-a)$ such that the following equality holds  
+\begin{eqnarray*}
+T(*gName*,\tilde \omega)&=&*eStrs*+*aScalar* a+ *thScalar* *theta*.
+\end{eqnarray*}_/v_
+
+
+_k_envAnalysis08Reg_/k_
+_v_ The outcome $\tilde \omega$ in the previous equation can be any element of $\Omega_n$. _/v_
+
+_k_envAnalysis08HatB_/k_
+_v_ The outcome $\tilde\omega$ in the previous equation can be any element of $\Omega_n$ that satisfies $\tilde \omega_{_/v_
+
+
+
+
+
+
+
+
+
+
+
+
+_k_level2P01_/k_
+_v_Let us summarize the conclusions that we can make by analyzing \eqref_/v_
+_k_level2P02_/k_
+_v_. We obtained that there exist scalars _/v_
+
+
+_k_level2P03_/k_
+_v_ that all belong to the interval $(0,b-a)$ for which the following relations hold _/v_
+
+_k_level1P01_/k_
+_v_ The following inequalities are derived by identifying appropriate segments and calculating their passage times. _/v_
+_k_level3P01_/k_
+_v_ In a similar way we derive inequalities for the environment shifts that contain three operators of the type $\sigma^b$. _/v_
+
+_k_concludingSentence01_/k_
+_v_Combining the equations and inequalities _/v_
+_k_concludingSentence02_/k_
+_v_, we derive _/v_
+
+_k_thetaIn0bma_/k_
+_v_Recall that each of the constants $\theta$ belongs to the interval $[0,b-a]$. _/v_
+_k_finalParagraph01_/k_
+_v_ Thus, under the condition _/v_ 
+_k_finalParagraph02_/k_
+_v_, we have obtained that
+$\partial_Sf(\omega)\geq -2(b-a)$. _/v_
+
+
+
+
+
+
+_k_pictureBegin_/k_
+_v_
+\begin{center}
+\begin{tikzpicture}
+\draw[thick] (0.5,4) -- (11.5,4);
+\node at (3,4) {$\bullet$};
+\node at (5,4) {$\bullet$};
+\node at (7,4) {$\bullet$};
+\node at (9,4) {$\bullet$};
+\node[below] at (2.8,4) {$v_1$};
+\node[below] at (5,4) {$v_2$};
+\node[below] at (7,4) {$v_3$};
+\node[below] at (9.2,4) {$v_4$};
+\node[above] at (1.5,4) {$e_{01}$};
+\node[above] at (4,4) {$e_{12}$};
+\node[above] at (6,4) {$e_{23}$};
+\node[above] at (8,4) {$e_{34}$};
+\node[above] at (10.5,4) {$e_{45}$};
+_/v_
+
+_k_pictureEnd_/k_
+_v_\end{tikzpicture}
+\end{center} 
+_/v_
+
+_k_pictureGamma02B_/k_
+_v_
+\draw[thick] (0.5,5.5) .. controls (2,5.5) and (3,5) .. (5,4);
+\node[above] at (1.5,5.5) {$_/v_
+
+
+_k_pictureGamma03B_/k_
+_v_
+\draw[thick] (0.5,6.5) .. controls (3,6.5) and (5,5) .. (7,4);
+\node[above] at (1.5, 6.5) {$_/v_
+
+_k_pictureGamma03Ba0_/k_
+_v_
+\draw[thick] (0.5,6.5) .. controls (3,6.5) and (5,5) .. (7,4);
+\node[above] at (1.5, 6.5) {$_/v_
+_k_pictureGamma03Ba1_/k_
+_v_
+\draw[thick] (0.5,7.5) .. controls (3,7.5) and (5,5) .. (7,4);
+\node[above] at (1.5, 7.5) {$_/v_
+
+_k_pictureGamma25B_/k_
+_v_
+\draw[thick] (5,4) .. controls (6,6) and (9,6.5) .. (11.5,6.5);
+\node[above] at (10.5,6.5) {$_/v_
+_k_pictureGamma25Ba0_/k_
+_v_
+\draw[thick] (5,4) .. controls (6,6) and (9,6.5) .. (11.5,6.5);
+\node[above] at (10.5,6.5) {$_/v_
+
+_k_pictureGamma25Ba1_/k_
+_v_
+\draw[thick] (5,4) .. controls (6,6) and (9,7.5) .. (11.5,7.5);
+\node[above] at (10.5,7.5) {$_/v_
+
+_k_pictureGamma35B_/k_
+_v_
+\draw[thick] (7,4) .. controls (9,2) and (10,2.5) .. (11.5,2.5);
+\node[below] at (10.5,2.5) {$_/v_
+
+_k_pictureGamma24B_/k_
+_v_
+\draw[thick] (5,4) .. controls (6.5,6) and (7.5,6) .. (9,4);
+\node[above] at (8.6,5.2) {$_/v_
+
+_k_pictureGamma13B_/k_
+_v_
+\draw[thick] (3,4) .. controls (4.5,2) and (5.5,2) .. (7,4);
+\node[below] at (6.3,2.8) {$_/v_
+
+_k_pictureGamma14B_/k_
+_v_
+\draw[thick] (3,4) .. controls (4,2) and (8,2) .. (9,4);
+\node[below] at (6,2.5) {$_/v_
+
+
+_k_pictureGamma04B_/k_
+_v_
+\draw[thick] (0.5,1.8) .. controls (4,2) and (8,2) .. (9,4);
+\node[below] at (1.5,1.8) {$_/v_
+
+_k_pictureGamma04Ba0_/k_
+_v_
+\draw[thick] (0.5,1.8) .. controls (4,2) and (8,2) .. (9,4);
+\node[below] at (1.5,1.8) {$_/v_
+
+_k_pictureGamma04Ba1_/k_
+_v_
+\draw[thick] (0.5,0.8) .. controls (4,1) and (8,1) .. (9,4);
+\node[below] at (1.5,0.8) {$_/v_
+
+_k_pictureGamma15B_/k_
+_v_
+\draw[thick] (3,4) .. controls (4,1) and (8,2) .. (11.5,1.8);
+\node[below] at (10.5,1.8) {$_/v_
+
+_k_pictureGamma15Ba0_/k_
+_v_
+\draw[thick] (3,4) .. controls (4,1) and (8,2) .. (11.5,1.8);
+\node[below] at (10.5,1.8) {$_/v_
+
+_k_pictureGamma15Ba1_/k_
+_v_
+\draw[thick] (3,4) .. controls (4,1) and (8,1) .. (11.5,0.8);
+\node[below] at (10.5,0.8) {$_/v_
+
+
+
+
+
