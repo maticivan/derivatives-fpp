@@ -20,7 +20,6 @@
 //* DEALINGS IN THE SOFTWARE.                                                                     *
 //*************************************************************************************************
 
-
 #ifndef _INCL_LBRWV_CPP
 #define _INCL_LBRWV_CPP
 namespace LBRWV{   
@@ -30,8 +29,6 @@ namespace LBRWV{
     if(it==tMap.end()){return "Translation not found for "+k;}
     return it->second;
   }
-
-
   std::string getABstring(const LBLCV::CompVector<long>& r,const std::string& open, const std::string& close, const std::string& separator){
     if(r.size()<1){return "";}
     std::string res=open;
@@ -184,7 +181,6 @@ namespace LBRWV{
       }
       inequalities[numBs].insert(left+" & "+ineqSign(numBs,right!=SF::findAndReplace(right,"omega",""))+" & "+right);
     }
-    
   }
   void WritingData::getEquationsInequalitiesAndParameters(const LBLCV::LowerBoundProofData<long>& pd){
     derInequality="\\partial_Sf(\\omega)&\\geq&"+toLatex(rawThetas,parameters,parametersH, pd.envDerivativeF);
@@ -194,8 +190,6 @@ namespace LBRWV{
       ++it;
     }
   }
-  
-  
   std::string correctSet(long alpha, long i,long complement=0){
     std::string complementAdditionE="",complementAdditionHE="^C";
     if(complement){complementAdditionE="^C";complementAdditionHE="";}
@@ -408,8 +402,6 @@ namespace LBRWV{
   }
   std::string generateHatGTI(const WritingData& wd, const NameComponents& nc){
     std::string res;
-    //res+=wd.translate("envAnalysis01");
-    //res+="$"+sigmaOmega(nc.env)+"$. "; 
     res+=wd.translate("envAnalysis02");
     res+="\\hat\\gamma"+getABstring(nc.env,"(",")",",")+"$";
     res+=wd.translate("envAnalysis03");
@@ -437,9 +429,6 @@ namespace LBRWV{
   }
   std::string generateGTI(const WritingData& wd, const NameComponents& nc){
     std::string res;
-
-    //res+=wd.translate("envAnalysis01");
-   // res+="$"+sigmaOmega(nc.env)+"$. "; 
     res+=wd.translate("envAnalysis02");
     res+="\\gamma"+getABstring(nc.env,"(",")",",")+"$";
     res+=wd.translate("envAnalysis03");
@@ -541,21 +530,15 @@ namespace LBRWV{
     res+="\\label"+latexLabel(wd,"env0");
     res+=wd.translate("level0Close");
     res+=drawPicture(wd,hI);
-
-
-
     res+=wd.translate("level2P01")+latexLabel(wd,"environments");
     res+=wd.translate("level2P02");
     res+=listOfAllThetas(wd);
     res+=wd.translate("level2P03");
     res+=listOfEqsAtLevel(wd,2);
-
     res+=wd.translate("level1P01");
     res+=listOfEqsAtLevel(wd,1);
-    
     res+=wd.translate("level3P01");
     res+=listOfEqsAtLevel(wd,3);
-    
     res+=wd.translate("concludingSentence01");
     res+="(\\ref"+latexLabel(wd,"env0")+"--\\ref"+latexLabel(wd,"l3Last")+")";
     res+=wd.translate("concludingSentence02");
@@ -568,7 +551,6 @@ namespace LBRWV{
     GL_counters.incrementCounters();
     return res;
   }
-
 }
 
 #endif
