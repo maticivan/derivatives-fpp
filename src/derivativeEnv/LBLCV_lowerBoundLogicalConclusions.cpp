@@ -455,7 +455,6 @@ namespace LBLCV{
       else{
         res+="\n***** Error messages: *****\n"+errorMessages;
       }
-
       res+="Number of critical errors: "+std::to_string(criticalErrors)+"\n";
       res+="Remaining environments: \n";
       for(long i=0;i<remainingEnvironments.size();++i){
@@ -651,7 +650,6 @@ namespace LBLCV{
         mg.g[tmp]=mn;
         return;
       }
- 
       updatePassageTimes(it->second,cmb);
    }
    void updatePassageTimes(MainGraph<long>& mg,const DirectPathSegment<long>& f, const DirectPathSegment<long>& s, long dest){
@@ -1082,17 +1080,6 @@ namespace LBLCV{
     }
     return lD;
   }
-
-
-
-
-
-
-
-
-
-
-
    HelpfulnessIndicators<long> oneHelpIndFromString(const std::string& s){
      HelpfulnessIndicators<long> res;
      std::map<long,long> rMap,hMap;
@@ -1157,12 +1144,8 @@ namespace LBLCV{
           }
         } 
       }
-
-
       return res;
    }
- 
-
 }
 
 #endif
