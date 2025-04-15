@@ -20,7 +20,6 @@
 //* DEALINGS IN THE SOFTWARE.                                                                     *
 //*************************************************************************************************
 
-
 #ifndef _INCL_LBAMV_CPP
 #define _INCL_LBAMV_CPP
 namespace LBAMV{
@@ -228,7 +227,6 @@ namespace LBAMV{
     }
     return res;
   }
-
 }
 
 #endif
