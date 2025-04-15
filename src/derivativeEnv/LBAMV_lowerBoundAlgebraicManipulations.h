@@ -20,7 +20,6 @@
 //* DEALINGS IN THE SOFTWARE.                                                                     *
 //*************************************************************************************************
 
-
 #ifndef _INCL_LBAMV_H
 #define _INCL_LBAMV_H
 namespace LBAMV{ 
@@ -32,7 +31,6 @@ namespace LBAMV{
     Monomial(const std::string& ="", const TTT& =0);
     int operator<(const Monomial<TTT>& ) const;
   };
-  
   template<typename TTT>
   struct LinCombination{
   public:
@@ -48,7 +46,6 @@ namespace LBAMV{
     std::string toString() const;
     TTT getComponent(const std::string& ) const;
   };       
-
 }
 
 #endif
