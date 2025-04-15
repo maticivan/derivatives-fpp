@@ -20,7 +20,6 @@
 //* DEALINGS IN THE SOFTWARE.                                                                     *
 //*************************************************************************************************
 
-
 #ifndef _INCL_LBLCV_H
 #define _INCL_LBLCV_H
 namespace LBLCV{
@@ -56,7 +55,6 @@ namespace LBLCV{
     int operator<(const HelpfulnessIndicators<T> &) const;
     std::string toString() const;
   };
-
   template<typename T>
   struct DirectPathSegment{
   public:
@@ -67,7 +65,6 @@ namespace LBLCV{
     int restrictionsSatisfied(const CompVector<T>& ) const;
     int operator<(const DirectPathSegment<T>& ) const;
   };
-
   template<typename T>
   struct MainGraph{
   public:
@@ -93,7 +90,6 @@ namespace LBLCV{
     std::map<CompVector<T>, EvaluationsForOneEnvironment<T> > eAll;
     std::string toString() const;
   };
-
   template<typename T>
   struct MainEvaluatorFixed{
   public:
@@ -116,18 +112,15 @@ namespace LBLCV{
     std::string errorMessages;
     std::string toString() const;
   };
-
   template<typename T>
   struct BestEvaluationWithErrorMessage{
     public:
       EvaluationsForOneEnvironment<T> bestEv;
       std::string errorMessage;
   };
-
   template<typename T>
   struct LowerBoundProofData{
   public:
-    //long lowerBound;
     int proofFound;
     LBAMV::LinCombination<T> envDerivativeF;
     EvaluationsForAllEnvironments<T> eAE;
