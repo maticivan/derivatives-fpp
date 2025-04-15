@@ -40,11 +40,7 @@
 #include <iomanip>
 #include <memory>
 #include <limits>
-
-//#include <openssl/evp.h>
-//#include <openssl/rand.h>
 #include <experimental/filesystem>
-
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
