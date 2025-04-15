@@ -20,7 +20,6 @@
 //* DEALINGS IN THE SOFTWARE.                                                                     *
 //*************************************************************************************************
 
-
 #ifndef _INCL_LBRWV_H
 #define _INCL_LBRWV_H
 namespace LBRWV{ 
@@ -63,8 +62,6 @@ namespace LBRWV{
     void addEquationForOneEnvironment(const LBLCV::CompVector<long>& ,const ssm::set<LBAMV::LinCombination<long> >& );
     void getEquationsInequalitiesAndParameters(const LBLCV::LowerBoundProofData<long>& );
   };      
-
-
 }
 
 #endif
