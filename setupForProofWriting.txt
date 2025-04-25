@@ -63,7 +63,7 @@ _/v_
 
 _k_level0Open_/k_
 _v_Denote by $\gamma(a,a,a,a)$ the geodesic on the environment $\sigma^{(a,a,a,a)}(\omega)$. Let $\gamma^-(a,a,a,a)$ be the section of $\gamma(a,a,a,a)$ before $v_1$. Let $\gamma^+(a,a,a,a)$ be the section after $v_4$. Let $\gamma(i,i+1)$ be the section between $v_i$ and $v_{i+1}$ for $i\in\{1,2,3,4\}$. Let $e_{01}$ be the passage time over $\gamma^-(a,a,a,a)$. Let $e_{45}$ be the passage time over $\gamma^+(a,a,a,a)$. For $i\in\{1,2,3\}$ and $j=i+1$, denote by $e_{ij}$ the passage 
-time over $\gamma(i,j)$. The value $f(\sigma^{(a,a,a,a)}(\omega)$ satisfies \begin{eqnarray}f(\sigma^{(a,a,a,a)}(\omega)&=&\rho, \mbox{ where } \rho=4a+e_{01}+e_{12}+e_{23}+e_{34}+e_{45}. _/v_
+time over $\gamma(i,j)$. The value $f(\sigma^{(a,a,a,a)}(\omega))$ satisfies \begin{eqnarray}f(\sigma^{(a,a,a,a)}(\omega))&=&\rho, \mbox{ where } \rho=4a+e_{01}+e_{12}+e_{23}+e_{34}+e_{45}. _/v_
 _k_level0Close_/k_
 _v_\end{eqnarray}_/v_
 
